@@ -1,5 +1,5 @@
 <?php
-namespace Mail\Gmail;
+namespace MailList\GmailList;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Request;
