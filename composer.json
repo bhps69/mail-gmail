@@ -2,7 +2,7 @@
     "name": "maillist/gmaillist",
     "description": "a mail plugin",
     "type": "library",
-    "license": "gkblabs",
+    "license": "MIT",
     "authors": [
         {
             "name": "phani",
