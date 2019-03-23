@@ -1,5 +1,5 @@
 {
-    "name": "mailList/gmailList",
+    "name": "maillist/gmaillist",
     "description": "a mail plugin",
     "type": "library",
     "license": "gkblabs",
