@@ -1,6 +1,6 @@
 <?php
 
-namespace Mail\Gmail;
+namespace MailList\GmailList;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class GmailListProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Mail\Gmail\GmailController');
-        $this->app->make('Mail\Gmail\mailSearchController');
+        $this->app->make('MailList\GmailList\GmailController');
+        $this->app->make('MailList\GmailList\mailSearchController');
         //$this->app->make('Mail\Gmail\');
     }
 
