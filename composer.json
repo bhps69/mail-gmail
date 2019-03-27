@@ -1,8 +1,8 @@
 {
-    "name": "maillist/gmaillist",
+    "name": "viewList\\mailList",
     "description": "a mail plugin",
     "type": "library",
-    "license": "MIT",
+    "license": "gkblabs",
     "authors": [
         {
             "name": "phani",
@@ -10,5 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ViewList\\MailList\\MailListProvider"
+            ]
+
+        }}
 }
